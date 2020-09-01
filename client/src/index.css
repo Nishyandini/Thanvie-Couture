@@ -1,0 +1,16 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', serif;
+}
+
+@font-face {
+    font-family: 'Scriptina';
+    src:  url(./font/scriptina/SCRIPTIN.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Montreuil';
+    src: url(./font/Montreuil.otf) format('truetype');
+}
+

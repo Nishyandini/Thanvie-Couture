@@ -1,0 +1,11 @@
+.Login{
+    /* background-color: gray; */
+    background-image: linear-gradient(to right bottom, rgba(41, 40, 3, 0.6), rgba(0, 0, 0.7)), url('../../images/shopping-in-east-aurora-ny-1500x609.jpg');
+}
+
+.google-signin{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}

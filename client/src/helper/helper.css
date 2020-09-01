@@ -1,0 +1,28 @@
+
+.montreuil-font{
+    font-size: 6vw;
+    font-weight: 300;
+    font-family: 'Montreuil';
+}
+
+.background-image-config{
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-box-config{
+    padding: 10%;
+    color: white;
+    text-align: center;
+
+    line-height: 2em;  
+    letter-spacing: .2em;
+}
+
+.page-layout{
+    padding: 5% 5%;
+}

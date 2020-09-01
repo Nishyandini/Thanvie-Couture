@@ -1,0 +1,8 @@
+.contact-us{
+    background-image: linear-gradient(to right bottom, rgba(41, 40, 3, 0.7), rgba(0, 0, 0.7)), url('../../images/57-573282_black-rotary-phone-preview-old-telephone-photography.jpg');
+    background-position: center top;
+}
+
+.fa-facebook, .fa-instagram{
+    color: white;
+}

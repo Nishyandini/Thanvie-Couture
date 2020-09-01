@@ -1,0 +1,133 @@
+.menu-section{
+    width: 10%;
+
+}
+
+.store-name{
+    position: fixed;
+    top: 0%;
+    left:1%;
+
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.726);
+
+    animation: moveInFromRight 1s;
+    
+}
+
+.bar-property{
+    height: 0.3vh;
+    width: 4vw;
+
+    background-color: white;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.726);
+
+}
+
+.bar-top{
+    position: fixed;
+    top: 5%;
+    right: 4%;
+}
+
+.bar-middle{
+    position: fixed;
+    top: 6%;
+    right: 4%;
+}
+
+.bar-bottom{
+    position: fixed;
+    top: 7%;
+    right: 4%;
+}
+
+.fa{
+    padding: 1%;
+}
+
+.menu-cart-icon{
+    position: fixed;
+    top: 15%;
+    right: 0%;
+
+    background-color: crimson;
+    color: white;
+}       
+
+.menu-heart-icon{
+    position: fixed;
+    top: 23%;
+    right: 0%;
+
+    background-color: white;
+    color: crimson;
+}
+
+.scale-from-left-animation{
+    animation: scaleFromLeft 2s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+    z-index: 2; /*Specify a stack order in case you're using a different order for other elements*/
+}
+
+.overlay-text{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-times{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+
+    transition: 0.9s;
+    transform: rotate(-180deg);
+}
+
+.fa-times:before{
+    content: '\00d7';
+}
+
+.fa-times:hover{
+    transition: 0.9s;
+    transform: scale(2);
+}
+
+.z-index{
+    z-index: 9999;
+}
+
+@keyframes scaleFromLeft{
+    0% { transform-origin: 0% 0%; transform: scaleX(0);  }
+    50%{  transform: scaleX(10%); transform-origin: 100% 100%;  }
+    100% { transform: scaleX(10%); }
+}
+
+@keyframes moveInFromRight {
+	0%   {  transform: translateX(200%); }
+	100% { transition: translate(0); }
+}

@@ -1,0 +1,106 @@
+.home-page{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    background-color: rgba(255, 127, 80, 0.623);
+}
+
+.main-left-section{
+    width: 45%;
+}
+
+.main-right-section{
+    position: relative;
+    width: 45%;
+}
+
+.image-size{
+    width: 45%;
+    height: 40%;
+}
+
+.img-top{
+    position: absolute;
+    top: 1%;
+    right: 35%;
+}
+
+.img-middle{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    z-index: 1;
+}
+
+.img-bottom{
+    position: absolute;
+    right: 35%;
+    bottom: 1%;
+}
+
+
+.signature{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+.flip-animation{
+	animation: flip .8s ease-out forwards;
+}
+
+.background-img-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.collection-name{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.726);
+    letter-spacing: 8px;
+    font-family: 'Poiret One','Nothing You Could Do', 'Lato', 'Cormorant Garamond';
+}
+
+@keyframes flip {
+	0% { transform: rotateX(-100deg); }
+	100% { transform: rotateX(0deg);  }
+}
+
+@keyframes moveInFromLeft {
+	0%   {  transform: translateX(-50%); }
+	100% {  transform: translate(0); }
+}
+
+@keyframes scaleFromRight{
+    0% {  transform: scaleX(10%); }
+    100% {  transform: scaleX(0); }
+}
+ 
+
+/*
+
+@keyframes fallPerspective {
+	0% { }
+	100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@keyframes moveInFromTop {
+    0%   { opacity: 0; transform: scaleX(100%) }
+	100% { opacity: 1;  transition: scale(0); }
+}
+
+@keyframes moveInFromBottom {
+	0%   { transform: translateY(70%); }
+	100% { transition: translate(0); }
+}
+ */
+
+
