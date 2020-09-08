@@ -9,6 +9,7 @@ import ShopNow from './components/shop-now/shop-now';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './components/login/login';
+import WishList from './wish-list/wish-list';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path="/contact-us" component={ContactUs} />
           <Route exact path="/shop-now" component={ShopNow} />
           <Route exact path="/login" component={Login}/>
+          <Route exact path="/wishList" component={WishList}/>
         </Switch>
       </div>
     </Router>

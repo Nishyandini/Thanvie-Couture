@@ -92,11 +92,11 @@ const ShopNow = () => {
 
     return (
         <div className="page-layout">
-            <h1 className="collection-title"> Designer Wear </h1>
-            <div className="collections-group">
+            <h1 className="page-title"> Designer Wear </h1>
+            <div className="flex-items">
                 {
                     products && products.map((val, index) => (
-                        <div key={index} className="collection">
+                        <div key={index} className="collection box-shadow">
                             <img src={val.mainImageUrl} className="image" alt="designer sarees" />
                             <div className="image-footer">
                                 <i

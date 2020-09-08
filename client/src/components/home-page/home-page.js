@@ -49,17 +49,17 @@ const HomePage = () => {
     return (
         <div onWheel={debounce(() => handleOnWheel(homePageJson.index), 100, { leading: false, trailing: true })}>
             <div className="home-page">
-                <div className="main-left-section background-img-style"
+                <div className="main-left-section background-img-style box-shadow"
                     style={{ backgroundImage: `url(${homePageJson.homeImageLeft})` }}>
                 </div>
                 <div className="main-right-section">
-                    <div className="img-top image-size flip-animation background-img-style"
+                    <div className="img-top image-size flip-animation background-img-style box-shadow"
                         style={{ backgroundImage: `url(${homePageJson.homeImageRightTop})` }}>
                     </div>
-                    <div className="img-middle image-size flip-animation background-img-style"
+                    <div className="img-middle image-size flip-animation background-img-style box-shadow"
                         style={{ backgroundImage: `url(${homePageJson.homeImageRightMid})` }}>
                     </div>
-                    <div className="img-bottom image-size flip-animation background-img-style"
+                    <div className="img-bottom image-size flip-animation background-img-style box-shadow"
                         style={{ backgroundImage: `url(${homePageJson.homeImageRightBottom})` }}>
                     </div>
                 </div>

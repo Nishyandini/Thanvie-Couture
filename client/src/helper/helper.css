@@ -26,3 +26,20 @@
 .page-layout{
     padding: 5% 5%;
 }
+
+.box-shadow{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-title{
+    text-align: center;
+    text-transform: uppercase;
+
+    letter-spacing: .5em;
+}
+
+.flex-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
